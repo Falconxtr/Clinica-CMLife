@@ -1,0 +1,191 @@
+/* Seção Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.limita-secao {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0000008c;
+}
+
+/* Seção Topo */
+header {
+    background-color: #00cad1;
+}
+
+.secao-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.secao-topo-logo img {
+    width: 100px;
+    margin-top: 4px;
+}
+
+.secao-topo-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+/* Seção Banner */
+.secao-banner {
+    background-image: url('../assets/recepcao.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 390px;
+}
+
+.secao-banner div {
+    position: relative;
+    top: 35%;
+}
+
+.secao-banner h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+/* Seção sobre a Clínica */
+.secao-clinica-info {
+    padding: 40px 0;
+}
+
+.secao-clinica-info div {
+    margin: 0 auto;
+}
+
+.secao-clinica-conteudo {
+    width: 555px;
+    text-align: center;
+}
+
+.secao-clinica-conteudo p {
+    margin: 15px 0;
+}
+
+.secao-clinica-conteudo2 {
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.secao-clinica-lista h3 {
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.secao-clinica-lista ul {
+    width: 400px;
+}
+
+.secao-clinica-lista ul li {
+    text-align: left;
+    margin-left: 55px;
+}
+
+/* Seção especialidades da Clínica  */
+.secao-clinica-esp div {
+    margin: 0 auto;
+}
+
+.secao-clinica-esp-conteudo {
+    width: 555px;
+    text-align: center;
+}
+
+.secao-clinica-esp-conteudo p {
+    margin: 15px 0 30px 0;
+}
+
+.secao-clinica-esp-cards {
+    display: flex;
+    justify-content: space-around;
+    width: 850px;
+}
+
+.secao-clinica-esp-cards img {
+    width: 250px;
+}
+
+.secao-clinica-esp-cards figure{
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 10px;
+    border-radius: 5px;
+}
+
+.secao-clinica-esp-cards figcaption{
+    padding: 7px 0;
+    text-transform: uppercase;
+}
+
+.secao-clinica-esp-nav {
+    margin: 40px 0 50px 0;
+    text-align: center;
+}
+
+.secao-clinica-esp-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #00cccf;
+    padding: 12px 18px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+/* Seção Contato */
+.secao-contato div {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.secao-contato2 {
+    width: 600px;
+}
+
+.secao-contato2 h3 {
+    margin-bottom: 17px;
+}
+
+.secao-contato2 p {
+    margin-bottom: 15px;;
+}
+
+/* Seção Rodapé */
+.secao-rodape {
+    background-color: #0c6e71;
+}
+
+.secao-rodape2 {
+    color: #fff;
+    text-align: center;
+    padding: 15px 0 10px 0;
+}
+
+.secao-rodape2 img {
+    width: 100px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.secao-rodape-conteudo p {
+    margin-bottom: 15px;
+    font-weight: 400;
+}
