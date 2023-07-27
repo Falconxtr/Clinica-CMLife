@@ -1,0 +1,92 @@
+/* Responsividade Telas até 425px */
+@media (max-width: 425px) {
+    /* Seção Topo */
+    .secao-topo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .secao-topo-nav {
+        padding: 3px 12px 5px 0px;
+        margin: 0 auto;
+        border-top: 1px solid #00aab1;
+        width: 65%;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .secao-topo-nav a {
+        font-size: 12px;
+    }
+
+    /* Seção Banner */
+    .secao-banner {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .secao-banner h1 {
+        font-size: 30px;
+    }
+
+    /* Seção sobre a Clínica */
+    .secao-clinica-info {
+        padding: 15px 0 20px 0;
+    }
+
+    .secao-clinica-info div, .secao-clinica-lista ul {
+        max-width: 380px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .secao-clinica-info h3 {
+        margin-top: 20px;
+    }
+
+    .secao-clinica-conteudo2 img {
+        display: none;
+    }
+
+    /* Seção especialidades da Clínica  */
+    .secao-clinica-esp div {
+        max-width: 380px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .secao-clinica-esp h3 {
+        margin-top: 20px;
+    } 
+
+    /* Seção Contato */
+    .secao-contato div {
+        max-width: 380px;
+        width: 100%;
+        text-align: center;
+    }
+
+    iframe {
+        height: 350px;
+    }
+}
+
+/* Responsividade Telas até 768px */
+@media (min-width: 426px) and (max-width: 768px) { 
+    /* Seção sobre a Clínica */
+    .secao-clinica-conteudo2 img {
+        display: none;
+    }
+
+    .secao-clinica-info h3 {
+        margin-top: 20px;
+    }
+
+    /* Seção especialidades da Clínica  */
+    .secao-clinica-esp-cards {
+        width: 550px;
+    }
+}

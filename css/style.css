@@ -44,7 +44,8 @@ header {
     background-image: url('../assets/recepcao.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 390px;
+    height: 400px;
+    margin-bottom: 20px;
 }
 
 .secao-banner div {
@@ -62,7 +63,7 @@ header {
 
 /* Seção sobre a Clínica */
 .secao-clinica-info {
-    padding: 40px 0;
+    padding: 15px 0 20px 0;
 }
 
 .secao-clinica-info div {
@@ -100,6 +101,10 @@ header {
 }
 
 /* Seção especialidades da Clínica  */
+.secao-clinica-esp {
+    padding-top: 15px;
+}
+
 .secao-clinica-esp div {
     margin: 0 auto;
 }
@@ -116,7 +121,10 @@ header {
 .secao-clinica-esp-cards {
     display: flex;
     justify-content: space-around;
-    width: 850px;
+    width: 100%;
+    max-width: 830px;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .secao-clinica-esp-cards img {
@@ -136,7 +144,7 @@ header {
 }
 
 .secao-clinica-esp-nav {
-    margin: 40px 0 50px 0;
+    margin: 40px 0 30px 0;
     text-align: center;
 }
 
@@ -151,6 +159,11 @@ header {
 }
 
 /* Seção Contato */
+.secao-contato {
+    padding-top: 10px;
+    text-align: center;
+}
+
 .secao-contato div {
     text-align: center;
     margin: 0 auto;
