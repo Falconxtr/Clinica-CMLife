@@ -49,17 +49,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.navegacao {
-    margin: 15px 0;
+    margin: 15px 0; 
 }
 
 .navegacao nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 450px;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 .navegacao nav a {
@@ -90,7 +88,7 @@ header {
 
 .secao-especialidades div {
     height: 240px;
-
+    width: 100%;
 }
 
 .secao-especialidades h3 {
@@ -100,7 +98,8 @@ header {
 }
 
 .secao-especialidades p {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     margin: 0 auto;
     padding-bottom: 15px;
 }
@@ -109,7 +108,7 @@ header {
     display: flex;
     justify-content: center;
     height: 240px;
-    padding: 0 20px;
+    width: 100%;
 }
 
 .secao-horarios img {
@@ -117,7 +116,6 @@ header {
     height: 100%;
     object-fit: cover;
 }
-
 
 .secao-horarios table {
     border-spacing: 0;

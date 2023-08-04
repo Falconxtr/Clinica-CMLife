@@ -1,0 +1,62 @@
+/* Responsividade Telas até 425px */
+@media (max-width: 425px) {
+    /* Seção Topo */
+    .secao-topo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .secao-topo-nav {
+        padding: 8px 12px 8px 0px;
+        margin: 0 auto;
+        border-top: 1px solid #00aab1;
+        width: 65%;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .secao-topo-nav a {
+        font-size: 12px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* Seção Título */
+    .secao-titulo {
+        font-size: 14px;
+    }
+
+    /* Seção Navegação */
+    .navegacao nav {
+        width: 350px;
+    }
+
+    /* Seção Especialidades */
+    .secao-horarios img {
+        display: none;
+    }
+
+    .secao-horarios table {
+        width: 100%;
+    }
+}
+
+/* Responsividade Telas até 768px */
+@media (min-width: 426px) and (max-width: 768px) {
+    /* Seção Navegação */
+    .navegacao nav {
+        width: 450px;
+    }
+    
+    /* Seção Especialidades */
+    .secao-horarios img {
+        display: none;
+    }
+
+    .secao-horarios table {
+        width: 90%;
+    }
+}

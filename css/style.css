@@ -81,6 +81,8 @@ header {
 
 .secao-clinica-conteudo p {
     margin: 15px 0;
+    max-width: 500px;
+    width: 100%;
 }
 
 .secao-clinica-conteudo2 {
@@ -120,6 +122,8 @@ header {
 
 .secao-clinica-esp-conteudo p {
     margin: 15px 0 30px 0;
+    max-width: 500px;
+    width: 100%;
 }
 
 .secao-clinica-esp-cards {
@@ -182,7 +186,7 @@ header {
 }
 
 .secao-contato2 p {
-    margin-bottom: 15px;;
+    margin-bottom: 15px;
 }
 
 /* Seção Rodapé */
