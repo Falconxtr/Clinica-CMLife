@@ -39,6 +39,10 @@ header {
     padding-left: 15px;
 }
 
+.secao-topo-nav a:hover {
+    color: #0d6e71;
+}
+
 /* Seção Navegação */
 .navegacao {
     text-align: center;
@@ -66,6 +70,10 @@ header {
     border-bottom: 2px solid #6ea7a5;
 }
 
+.navegacao a:hover {
+    color: #0d6e71; 
+}
+
 /* Seção Título */
 .secao-titulo {
     text-align: center;
@@ -81,7 +89,8 @@ header {
 }
 
 .secao-especialidades div {
-    max-height: 240px;
+    height: 240px;
+
 }
 
 .secao-especialidades h3 {
@@ -99,18 +108,22 @@ header {
 .secao-horarios {
     display: flex;
     justify-content: center;
+    height: 240px;
+    padding: 0 20px;
 }
 
 .secao-horarios img {
-    width: 250px;
-    height: 250px;
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
 .secao-horarios table {
-    width: 900px;
+    border-spacing: 0;
     text-align: left;
-    border: none;
+    width: 70%;
+    height: 100%;
 }
 
 .secao-horarios table thead {

@@ -39,6 +39,10 @@ header {
     padding-left: 15px;
 }
 
+.secao-topo-nav a:hover {
+    color: #0d6e71;
+}
+
 /* Seção Banner */
 .secao-banner {
     background-image: url('../assets/recepcao.png');
